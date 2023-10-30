@@ -1,0 +1,25 @@
+public class Main {
+    public static void main(String[] args) {
+
+    int dia=1;
+    String nombreDia;
+    switch (dia) {
+        case 1: nombreDia="Monday";
+            break;
+        case 2: nombreDia="Tuesday";
+            break;
+        case 3: nombreDia="Wednesday";
+            break;
+        case 4: nombreDia="Thursday";
+            break;
+        case 5: nombreDia="Friday";
+            break;
+        case 6: nombreDia="Saturday";
+            break;
+        case 7: nombreDia="Sunday";
+            break;
+        default: nombreDia="number incorrect";
+    }
+System.out.println("The day is "+nombreDia);
+    }
+}
